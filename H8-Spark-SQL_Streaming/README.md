@@ -1,13 +1,5 @@
 # Hands-On Lab 8: Spark SQL & Structured Streaming
 
-## Course Information
-- **Course**: ITCS 6190 - Cloud Computing for Data Analysis
-- **Semester**: Fall 2025
-- **Student Name**: [Your Name]
-- **Student ID**: [Your ID]
-
----
-
 ## Overview
 
 This project implements real-time streaming data processing using Apache Spark Structured Streaming for a ride-sharing application. It demonstrates data ingestion, stateful aggregations, and time-based windowed analytics with JSON streaming data.
