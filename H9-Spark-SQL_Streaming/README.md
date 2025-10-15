@@ -1,4 +1,4 @@
-# Hands-On Lab 8: Spark SQL & Structured Streaming
+# Hands-On Lab 9: Spark SQL & Structured Streaming
 
 ## Overview
 
