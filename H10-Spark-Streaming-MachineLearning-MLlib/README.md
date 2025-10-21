@@ -76,25 +76,21 @@ Batch: 7
 
 ## 📸 Screenshots
 
-### Project Structure
-![Project Structure](path/to/screenshot1.png)
 
 ### Task 4 Output
-![Task 4 Output](path/to/screenshot2.png)
+
 
 ### Task 4 Data Stream
-![Task 4 Stream](path/to/screenshot3.png)
+
+
+
 
 ### Task 5 Output
-![Task 5 Output](path/to/screenshot4.png)
+
 
 ### Task 5 Data Stream
-![Task 5 Stream](path/to/screenshot5.png)
 
-## 👤 Author
-**Course**: ITCS 6190/8190 - Cloud Computing for Data Analysis  
-**Semester**: Fall 2025  
-**Instructor**: Marco Vieira
+
 
 ---
 *Apache Spark + MLlib real-time ML pipeline*
