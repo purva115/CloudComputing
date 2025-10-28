@@ -201,40 +201,6 @@ Key Columns:
 - LAG() window function
 - Growth rate calculations
 
-
-**Key Findings:**
-- [Add your observation: e.g., "Peak growth occurred in Month XX with XX% increase"]
-- [Add trend observation]
-
----
-
-## 📊 Key Insights and Business Recommendations
-
-### Overall Findings
-
-1. **Sales Performance**
-   - [Add insight about overall sales trends]
-
-2. **Geographic Patterns**
-   - [Add insight about geographic performance]
-
-3. **Pricing Strategy**
-   - [Add insight about discount effectiveness]
-
-4. **Product Performance**
-   - [Add insight about top-performing products]
-
-5. **Growth Trajectory**
-   - [Add insight about month-over-month trends]
-
-### Recommendations
-
-1. [Business recommendation based on analysis]
-2. [Business recommendation based on analysis]
-3. [Business recommendation based on analysis]
-
----
-
 ## 🛠️ Technical Challenges and Solutions
 
 ### Challenge 1: Date Format Parsing
@@ -245,13 +211,7 @@ Key Columns:
 **Issue:** Column names like `ship-state` caused SQL errors  
 **Solution:** Enclosed column names in double quotes: `"ship-state"`
 
-### Challenge 3: [Add your challenge]
-**Issue:** [Describe the issue]  
-**Solution:** [Describe the solution]
-
 ---
-
-
 
 ## 🚀 How to Reproduce
 
@@ -288,8 +248,6 @@ Key Columns:
 2. **Athena** provides powerful SQL analytics without managing infrastructure
 3. **Window functions** are essential for time-series and ranking analyses
 4. **Date formatting** requires careful attention when working with string dates
-5. [Add your lesson learned]
-
 ---
 
 ## 🔗 References
