@@ -76,20 +76,7 @@ Batch: 7
 
 ## 📸 Screenshots
 
-
-### Task 4 Output
-
-
-### Task 4 Data Stream
-
-
-
-
-### Task 5 Output
-
-
-### Task 5 Data Stream
-
+Task 4 and Task 5 outputs stored in output folder . Please refer.
 
 
 ---
