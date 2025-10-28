@@ -102,9 +102,9 @@ Key Columns:
 ### Step 3: Glue Database and Crawler
 
 1. Created Glue database: `output_db`
-2. Created crawler: `ecommerce-sales-crawler`
+2. Created crawler: `handsoncrawler`
 3. Configured data source: S3 bucket path
-4. Assigned IAM role: `GlueS3AccessRole`
+4. Assigned IAM role: `IAMrole`
 5. Set target database: `output_db`
 6. Ran crawler successfully
 
@@ -112,7 +112,6 @@ Key Columns:
 - Tables created: 1 (`raw`)
 - Columns detected: 24
 - Data format: CSV
-- Execution time: [X] minutes
 
 ### Step 4: Athena Configuration
 
