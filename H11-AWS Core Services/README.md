@@ -114,9 +114,6 @@ Key Columns:
 - Data format: CSV
 - Execution time: [X] minutes
 
-**Screenshot:**  
-![CloudWatch Logs](screenshots/cloudwatch_logs.png)
-
 ### Step 4: Athena Configuration
 
 1. Set query result location in S3
@@ -137,11 +134,6 @@ Key Columns:
 - Date parsing and filtering
 - Running totals
 
-
-**Key Findings:**
-- [Add your observation: e.g., "Sales showed steady growth throughout 2022 with cumulative total reaching $XXX by year end"]
-- [Add trend observation]
-
 ---
 
 ### Query 2: Geographic Hotspot Analysis
@@ -152,11 +144,6 @@ Key Columns:
 - Aggregation by geographic dimension
 - Filtering for unprofitable transactions
 - Geographic analysis
-
-
-**Key Findings:**
-- [Add your observation: e.g., "State XX had the highest losses totaling $XXX"]
-- [Add geographic pattern observation]
 
 ---
 
@@ -169,11 +156,6 @@ Key Columns:
 - Profit ratio calculations
 - Discount level segmentation
 
-
-**Key Findings:**
-- [Add your observation: e.g., "High discounts (>20%) resulted in XX% lower profit margins"]
-- [Add category-specific observation]
-
 ---
 
 ### Query 4: Top 3 Most Profitable Products
@@ -184,11 +166,6 @@ Key Columns:
 - Common Table Expressions (CTEs)
 - Window functions with PARTITION BY
 - ROW_NUMBER() for ranking
-
-
-**Key Findings:**
-- [Add your observation: e.g., "Category XX dominated with top products generating $XXX in profit"]
-- [Add product-specific observation]
 
 ---
 
