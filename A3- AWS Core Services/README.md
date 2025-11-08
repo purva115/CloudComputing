@@ -102,7 +102,6 @@ This modular design prevents cross-service overreach and enhances security compl
 ---
 
 📸 **Screenshot - IAM Roles Created**  
-![IAM Roles Screenshot](images/iam_roles.png)
 <img width="1387" height="492" alt="IAMroles" src="https://github.com/user-attachments/assets/c35cbf81-722c-409f-baa1-8b0e2e75eb07" />
 
 
@@ -184,10 +183,14 @@ The S3 trigger implements an **event-driven workflow**, eliminating the need for
 ---
 
 📸 **Screenshot - S3 Trigger Configuration**  
-![S3 Trigger Configuration](images/s3_trigger.png)
+<img width="910" height="527" alt="Triggers" src="https://github.com/user-attachments/assets/5e84ed37-ebb9-4ff0-b094-ecd988da35ff" />
+
 
 📸 **Screenshot - Processed CSV File in Processed Folder**  
-![Processed CSV](images/s3_processed_csv.png)
+<img width="1901" height="591" alt="S3processed" src="https://github.com/user-attachments/assets/ce822396-fb4b-45a9-b6fa-2f2f5c7e19d9" />
+<img width="977" height="677" alt="S3processedcsvfile" src="https://github.com/user-attachments/assets/7326d748-b9df-41cd-9e37-887c7177fe33" />
+
+
 
 ---
 
@@ -218,7 +221,8 @@ Using a crawler avoids manual schema definitions. It dynamically adapts to new d
 ---
 
 📸 **Screenshot - Glue Crawler CloudWatch Logs**  
-![Glue Crawler Logs](images/glue_crawler_logs.png)
+<img width="1896" height="743" alt="crawlerCloudWatch" src="https://github.com/user-attachments/assets/597ccd67-ed82-4c81-94a9-fdde183aec44" />
+
 
 ---
 
@@ -283,12 +287,6 @@ LIMIT 10;
 ### **Approach**
 
 Athena transforms S3 into a queryable data lake, integrating seamlessly with Glue. This eliminates ETL overhead while providing quick business insights using standard SQL.
-
----
-
-📸 **Screenshot - Athena Query Results in Enriched Folder**  
-![Athena Query Results](images/athena_query_results.png)
-
 ---
 
 ## 🖥️ 7. Launch EC2 Web Server
@@ -381,7 +379,8 @@ http://YOUR_PUBLIC_IP_ADDRESS:5000
 ---
 
 📸 **Screenshot - EC2 Dashboard Running**  
-![EC2 Dashboard](images/ec2_dashboard.png)
+<img width="1630" height="808" alt="FinalOutputPage" src="https://github.com/user-attachments/assets/f30bb740-b964-46a7-a628-47e34d3451ae" />
+
 
 ---
 
