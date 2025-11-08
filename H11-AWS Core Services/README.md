@@ -102,9 +102,9 @@ Key Columns:
 ### Step 3: Glue Database and Crawler
 
 1. Created Glue database: `output_db`
-2. Created crawler: `ecommerce-sales-crawler`
+2. Created crawler: `handsoncrawler`
 3. Configured data source: S3 bucket path
-4. Assigned IAM role: `GlueS3AccessRole`
+4. Assigned IAM role: `IAMrole`
 5. Set target database: `output_db`
 6. Ran crawler successfully
 
@@ -112,10 +112,6 @@ Key Columns:
 - Tables created: 1 (`raw`)
 - Columns detected: 24
 - Data format: CSV
-- Execution time: [X] minutes
-
-**Screenshot:**  
-![CloudWatch Logs](screenshots/cloudwatch_logs.png)
 
 ### Step 4: Athena Configuration
 
@@ -137,11 +133,6 @@ Key Columns:
 - Date parsing and filtering
 - Running totals
 
-
-**Key Findings:**
-- [Add your observation: e.g., "Sales showed steady growth throughout 2022 with cumulative total reaching $XXX by year end"]
-- [Add trend observation]
-
 ---
 
 ### Query 2: Geographic Hotspot Analysis
@@ -152,11 +143,6 @@ Key Columns:
 - Aggregation by geographic dimension
 - Filtering for unprofitable transactions
 - Geographic analysis
-
-
-**Key Findings:**
-- [Add your observation: e.g., "State XX had the highest losses totaling $XXX"]
-- [Add geographic pattern observation]
 
 ---
 
@@ -169,11 +155,6 @@ Key Columns:
 - Profit ratio calculations
 - Discount level segmentation
 
-
-**Key Findings:**
-- [Add your observation: e.g., "High discounts (>20%) resulted in XX% lower profit margins"]
-- [Add category-specific observation]
-
 ---
 
 ### Query 4: Top 3 Most Profitable Products
@@ -184,11 +165,6 @@ Key Columns:
 - Common Table Expressions (CTEs)
 - Window functions with PARTITION BY
 - ROW_NUMBER() for ranking
-
-
-**Key Findings:**
-- [Add your observation: e.g., "Category XX dominated with top products generating $XXX in profit"]
-- [Add product-specific observation]
 
 ---
 
@@ -201,40 +177,6 @@ Key Columns:
 - LAG() window function
 - Growth rate calculations
 
-
-**Key Findings:**
-- [Add your observation: e.g., "Peak growth occurred in Month XX with XX% increase"]
-- [Add trend observation]
-
----
-
-## 📊 Key Insights and Business Recommendations
-
-### Overall Findings
-
-1. **Sales Performance**
-   - [Add insight about overall sales trends]
-
-2. **Geographic Patterns**
-   - [Add insight about geographic performance]
-
-3. **Pricing Strategy**
-   - [Add insight about discount effectiveness]
-
-4. **Product Performance**
-   - [Add insight about top-performing products]
-
-5. **Growth Trajectory**
-   - [Add insight about month-over-month trends]
-
-### Recommendations
-
-1. [Business recommendation based on analysis]
-2. [Business recommendation based on analysis]
-3. [Business recommendation based on analysis]
-
----
-
 ## 🛠️ Technical Challenges and Solutions
 
 ### Challenge 1: Date Format Parsing
@@ -245,13 +187,7 @@ Key Columns:
 **Issue:** Column names like `ship-state` caused SQL errors  
 **Solution:** Enclosed column names in double quotes: `"ship-state"`
 
-### Challenge 3: [Add your challenge]
-**Issue:** [Describe the issue]  
-**Solution:** [Describe the solution]
-
 ---
-
-
 
 ## 🚀 How to Reproduce
 
@@ -288,8 +224,6 @@ Key Columns:
 2. **Athena** provides powerful SQL analytics without managing infrastructure
 3. **Window functions** are essential for time-series and ranking analyses
 4. **Date formatting** requires careful attention when working with string dates
-5. [Add your lesson learned]
-
 ---
 
 ## 🔗 References
