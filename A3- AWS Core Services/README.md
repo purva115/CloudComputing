@@ -65,6 +65,10 @@ IAM (Identity and Access Management) roles define permissions that allow AWS ser
 
 This role grants Lambda permission to read from and write to S3 buckets while enabling CloudWatch logging.
 
+📸 Screenshot - Lambda Function
+<img width="1865" height="593" alt="lambdafun" src="https://github.com/user-attachments/assets/f9e2f96e-dd04-44e9-9597-80e9142c1967" />
+
+
 ---
 
 #### 🕸️ 2. Glue Service Role
