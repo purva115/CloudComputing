@@ -103,6 +103,8 @@ This modular design prevents cross-service overreach and enhances security compl
 
 📸 **Screenshot - IAM Roles Created**  
 ![IAM Roles Screenshot](images/iam_roles.png)
+<img width="1387" height="492" alt="IAMroles" src="https://github.com/user-attachments/assets/c35cbf81-722c-409f-baa1-8b0e2e75eb07" />
+
 
 ---
 
