@@ -43,6 +43,11 @@ When a CSV file (e.g., `Orders.csv`) is uploaded to the `raw/` folder, the Lambd
 ---
 
 ## 🔐 2. IAM Roles and Permissions
+📸 **Screenshot - IAM Roles Created**  
+<img width="1387" height="492" alt="IAMroles" src="https://github.com/user-attachments/assets/c35cbf81-722c-409f-baa1-8b0e2e75eb07" />
+
+
+---
 
 ### **Explanation**
 IAM (Identity and Access Management) roles define permissions that allow AWS services to securely interact with one another. In this project, three distinct roles are created — each with a specific purpose and restricted access following the **principle of least privilege**.
@@ -107,12 +112,6 @@ Each role isolates specific AWS permissions:
 - **EC2** handles data visualization.
 
 This modular design prevents cross-service overreach and enhances security compliance.
-
----
-
-📸 **Screenshot - IAM Roles Created**  
-<img width="1387" height="492" alt="IAMroles" src="https://github.com/user-attachments/assets/c35cbf81-722c-409f-baa1-8b0e2e75eb07" />
-
 
 ---
 
@@ -197,9 +196,6 @@ The S3 trigger implements an **event-driven workflow**, eliminating the need for
 
 📸 **Screenshot - Processed CSV File in Processed Folder**  
 <img width="1901" height="591" alt="S3processed" src="https://github.com/user-attachments/assets/ce822396-fb4b-45a9-b6fa-2f2f5c7e19d9" />
-<img width="977" height="677" alt="S3processedcsvfile" src="https://github.com/user-attachments/assets/7326d748-b9df-41cd-9e37-887c7177fe33" />
-
-
 
 ---
 
