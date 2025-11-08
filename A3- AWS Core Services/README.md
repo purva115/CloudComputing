@@ -35,6 +35,11 @@ demo-bucket-as3/
 
 When a CSV file (e.g., `Orders.csv`) is uploaded to the `raw/` folder, the Lambda function automatically processes it and outputs results into the `processed/` folder.
 
+📸 Screenshot - S3 Bucket
+<img width="1881" height="717" alt="S3structure" src="https://github.com/user-attachments/assets/adbc6c06-4289-49df-b0a8-7466b28fcb62" />
+
+
+
 ---
 
 ## 🔐 2. IAM Roles and Permissions
