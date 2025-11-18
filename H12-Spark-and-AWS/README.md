@@ -133,6 +133,8 @@ ORDER BY year_month;
 3. Glue job generates output:
 
    * Cleaned data → `processed/`
+     <img width="1893" height="757" alt="image" src="https://github.com/user-attachments/assets/0ffb788c-2508-49f9-b054-50d9d51f1ecb" />
+
    * Query results → `Athena Results/`
 4. Query results using **AWS Athena**.
 
