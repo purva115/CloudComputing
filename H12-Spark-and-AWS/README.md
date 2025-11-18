@@ -7,6 +7,8 @@ This project implements a **fully automated, serverless Spark ETL pipeline on AW
 ---
 
 ## 📸 Completed Pipeline Screenshots
+### ✔️ AWS Lambda Function
+<img width="1886" height="642" alt="image" src="https://github.com/user-attachments/assets/aa81f712-453d-41ed-a365-1048a5384eff" />
 
 ### ✔️ AWS Glue Job — Successful Runs
 
