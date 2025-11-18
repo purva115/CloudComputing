@@ -17,7 +17,8 @@ This project implements a **fully automated, serverless Spark ETL pipeline on AW
 
 ### ✔️ S3 Buckets — Landing & Processed
 
-<img width="1915" height="662" alt="image" src="https://github.com/user-attachments/assets/81515810-d916-46d6-bce9-6c71a89d1be2" />
+<img width="1882" height="573" alt="image" src="https://github.com/user-attachments/assets/54fb45ce-57c5-4ab9-bfb7-8de9e0bfbc15" />
+
 
 
 ### ✔️ Athena Results — Output Folders
