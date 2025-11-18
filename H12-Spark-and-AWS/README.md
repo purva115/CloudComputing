@@ -10,15 +10,18 @@ This project implements a **fully automated, serverless Spark ETL pipeline on AW
 
 ### ✔️ AWS Glue Job — Successful Runs
 
-![Glue job run](images/glue-job.png)
+<img width="1867" height="668" alt="image" src="https://github.com/user-attachments/assets/d81743b2-6a11-461a-b81e-3aab69e26e99" />
+
 
 ### ✔️ S3 Buckets — Landing & Processed
 
-![S3 buckets](images/s3-buckets.png)
+<img width="1915" height="662" alt="image" src="https://github.com/user-attachments/assets/81515810-d916-46d6-bce9-6c71a89d1be2" />
+
 
 ### ✔️ Athena Results — Output Folders
 
-![Athena Results](images/athena-results.png)
+<img width="1892" height="752" alt="image" src="https://github.com/user-attachments/assets/f939eaed-f558-4dd0-9674-eff03389d03e" />
+
 
 ---
 
