@@ -141,7 +141,19 @@ ORDER BY year_month;
 
 ---
 
-## 🎉 Status
+## Results:
+Folder : product_ratings
+<img width="452" height="531" alt="image" src="https://github.com/user-attachments/assets/cd802f83-a70f-4d44-9123-3484ec46df67" />
+
+Folder:datewise_reviews
+<img width="247" height="832" alt="image" src="https://github.com/user-attachments/assets/1074be3c-1d12-4699-be16-4f708db04f8f" />
+
+Folder:rating_distribution
+<img width="202" height="176" alt="image" src="https://github.com/user-attachments/assets/5038c10e-1488-49ee-84c4-01889da06265" />
+
+Folder: top_customers
+<img width="265" height="147" alt="image" src="https://github.com/user-attachments/assets/a752f1d8-e892-4ac6-ac37-c9ae596b6e97" />
+
 
 All elements of the assignment are complete:
 
