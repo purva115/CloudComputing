@@ -93,38 +93,47 @@ All required queries are implemented in the Glue ETL script.
 ### ✔️ Query A — Average rating per product category
 
 ```sql
-SELECT category, 
-       ROUND(AVG(rating),2) AS avg_rating,
-       COUNT(*) AS review_count
-FROM reviews
-GROUP BY category
-ORDER BY avg_rating DESC;
+    SELECT 
+        product_id_upper, 
+        AVG(rating) as average_rating,
+        COUNT(*) as review_count
+    FROM product_reviews
+    GROUP BY product_id_upper
+    ORDER BY average_rating DESC
 ```
 
-### ✔️ Query B — Top 10 products with ≥ 50 reviews
+### ✔️ Query B — Date-wise Review Count
 
 ```sql
-SELECT product_id,
-       ROUND(AVG(rating),2) AS avg_rating,
-       COUNT(*) AS reviews
-FROM reviews
-GROUP BY product_id
-HAVING COUNT(*) >= 50
-ORDER BY avg_rating DESC
-LIMIT 10;
+    SELECT 
+        review_date,
+        COUNT(*) AS review_count
+    FROM product_reviews
+    GROUP BY review_date
+    ORDER BY review_date
 ```
 
-### ✔️ Query C — Monthly rating trend
+### ✔️ Query C — Top 5 Most Active Customers
 
 ```sql
-SELECT date_format(to_date(review_date, 'yyyy-MM-dd'), 'yyyy-MM') AS year_month,
-       ROUND(AVG(rating),2) AS avg_rating,
-       COUNT(*) AS reviews
-FROM reviews
-GROUP BY date_format(to_date(review_date, 'yyyy-MM-dd'), 'yyyy-MM')
-ORDER BY year_month;
+    SELECT 
+        customer_id,
+        COUNT(*) AS review_count
+    FROM product_reviews
+    GROUP BY customer_id
+    ORDER BY review_count DESC
+    LIMIT 5
 ```
+### ✔️ Query D — Overall Rating Distribution
 
+```sql
+    SELECT 
+        rating,
+        COUNT(*) AS rating_count
+    FROM product_reviews
+    GROUP BY rating
+    ORDER BY rating
+```
 ---
 
 ## 🔁 How to Run the Pipeline
